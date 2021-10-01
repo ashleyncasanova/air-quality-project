@@ -3,9 +3,10 @@ ___
 ## **Contents**
 
 [**Notes**](#notes)
-* [How to open Jupyter in a Virtual Environment](how-to-open-jupyter-in-a-virtual-environment)
 
+[How to open Jupyter in a Virtual Environment](how-to-open-jupyter-in-a-virtual-environment)
 
+\
 [**Resources**](#resources)
 
 
