@@ -50,6 +50,10 @@ Step 4: Launch jupyter notebook
 jupyter notebook &
 ```
 
+>Note: This will launch Jupyter Notebooks in a new window.
+
+>Note: Launching Jupyter Notebooks in our home directory (~) will give us access to all of the files and directories it contains.
+
 >Note: The ampersand (&) is not necessary, but is useful as it will run our virtual environment in the background, freeing up the terminal for other things. 
 ___
 ### **Resources**
@@ -61,7 +65,7 @@ ___
 * Similar to Jupyter Notebooks, except it runs in the browser.
 
 ### [A gallery of interesting Jupyter Notebooks][4]
-* A curated collection of Jupyter/IPython notebooks on GitHub
+* A curated collection of Jupyter/IPython notebooks on GitHub.
 
 ___
 [1]: https://www.youtube.com/watch?v=DKiI6NfSIe8&t=175s
