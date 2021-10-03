@@ -4,16 +4,18 @@ ___
 
 [**Notes**](#notes)
 
-[How to open Jupyter in a Virtual Environment](#how-to-open-jupyter-in-a-virtual-environment)
+* [How to open Jupyter in a Virtual Environment](#how-to-open-jupyter-in-a-virtual-environment)
+
+* [How to close Jupyter in a Virtual Environment](#how-to-close-jupyter-in-a-virtual-environment)
 
 \
 [**Resources**](#resources)
 
-[Mini Conda](#mini-conda)
+* [Mini Conda](#mini-conda)
 
-[Google Colaboratory](#google-colaboratory)
+* [Google Colaboratory](#google-colaboratory)
 
-[A gallery of interesting Jupyter Notebooks](#a-gallery-of-interesting-jupyter-notebooks)
+* [A gallery of interesting Jupyter Notebooks](#a-gallery-of-interesting-jupyter-notebooks)
 ___
 ### **Notes**
 
@@ -55,6 +57,40 @@ jupyter notebook &
 >Note: Launching Jupyter Notebooks in our home directory (~) will give us access to all of the files and directories it contains.
 
 >Note: The ampersand (&) is not necessary, but is useful as it will run our virtual environment in the background, freeing up the terminal for other things. 
+___
+### [How to close Jupyter in a Virtual Environment](https://youtu.be/DKiI6NfSIe8)
+Just shutting the tab does not close the notebook. It will keep running until we tell it to stop.
+
+There are three ways we can explicitly **shut down** the notebook:
+1. by going to _file_ and selecting _close and hault_
+2. from the _dashboard_ by checking the box next to the notebook and clicking _shutdown_
+3. from the _terminal_ by deactivating our virtual environment
+
+ After you **save** and **shut down** your notebook, you can exit the virtual environment by closing out the terminal.  If we are still using the terminal we can just exit out of the jupiter notebooks part of it.
+
+ Since we are running this in a background job right now, we can run the command **jobs** to show us what jobs are currently running and we can see that we have a notebook running.
+
+ ```terminal
+ jobs
+ ```
+
+ In this case we can use the command **kill** (to kill a background job or process) followed by %1. This will kill the jupiter notebook.
+
+ ```terminal
+ kill %1
+ ```
+
+ At this point you may want to re-run jobs, to check that there are no more jobs running.
+
+ If you are not back in your home directory you can deactivate the virtual environment using **conda deactivate**.
+
+ ```terminal
+ conda deactivate
+ ```
+
+ This should return you to your home directory (~).
+
+ >Note: If we did not use the ampersand (&), then we can use **control-c** to stop the server.
 ___
 ### **Resources**
 
