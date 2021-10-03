@@ -90,7 +90,7 @@ There are three ways we can explicitly **shut down** the notebook:
 
  This should return you to your home directory (~).
 
- >Note: If we did not use the ampersand, then we can use **control-c** to stop the server.
+ >Note: If we did not use the ampersand (&), then we can use **control-c** to stop the server.
 ___
 ### **Resources**
 
