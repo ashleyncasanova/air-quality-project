@@ -37,15 +37,17 @@ ___
 ### [How to open Jupyter in a Virtual Environment][1]
 
 \
-Step 1: Create virtual environment (using the terminal)
+Step 1: Create a virtual environment using the terminal
 
 ```terminal
 conda create -n <virtual-environment-name> <list-packages>
 ```
 >Note: The terminal will return a package plan, listing the location of the virtual environment and any packages/associated dependencies that will be installed.
 
+>Note: For this example, we used the command _conda create -n jupyter-env jupyter pandas_
+
 \
-Step 2: Download and install ackages and dependencies
+Step 2: Download and install packages and dependencies
 
 ```terminal
 Proceed ([y]/n)?
@@ -74,14 +76,24 @@ jupyter notebook &
 >Note: The ampersand (&) is not necessary, but is useful as it will run our virtual environment in the background, freeing up the terminal for other things. 
 ___
 ### [How to close Jupyter in a Virtual Environment](https://youtu.be/DKiI6NfSIe8)
+
+\
+Part 1: **Shuting down our Notebook** 
+
+
 Just shutting the tab does not close the notebook. It will keep running until we tell it to stop.
 
-There are three ways we can explicitly **shut down** the notebook:
+There are two ways we can explicitly **shut down** the notebook:
 1. by going to _file_ and selecting _close and hault_
 2. from the _dashboard_ by checking the box next to the notebook and clicking _shutdown_
-3. from the _terminal_ by deactivating our virtual environment
 
- After you **save** and **shut down** your notebook, you can exit the virtual environment by closing out the terminal.  If we are still using the terminal we can just exit out of the jupiter notebooks part of it.
+ \
+ Part 2: **Exiting our Virtual Environment**
+
+ After you **save** and **shut down** your notebook, you can exit the virtual environment by:
+ 1. Closing out the terminal.  
+ 
+ 2. If we are still using the terminal we can just exit out of the jupiter notebooks part of it...
 
  Since we are running this in a background job right now, we can run the command **jobs** to show us what jobs are currently running and we can see that we have a notebook running.
 
