@@ -16,6 +16,21 @@ ___
 * [Google Colaboratory](#google-colaboratory)
 
 * [A gallery of interesting Jupyter Notebooks](#a-gallery-of-interesting-jupyter-notebooks)
+
+\
+[**Tools**](#tools)
+
+* [Tools that come with Jupyter Notebook](#tools-that-come-with-jupyter-notebook)
+
+    * [nbconvert](#nbconvert)
+
+    * [nbformat](#nbformat)
+
+* [Tools that do not come with Jupyter Notebook](#tools-that-do-not-come-with-jupyter-notebook)
+
+    * [papermill](#papermill)
+
+    * [Jupyter Notebook Extensions](#jupyter-notebook-extensions)
 ___
 ### **Notes**
 
@@ -104,7 +119,33 @@ ___
 * A curated collection of Jupyter/IPython notebooks on GitHub.
 
 ___
+### **Tools**
+
+### **Tools that come with Jupyter Notebook**
+
+### [nbconvert][5]
+* Converts notebooks to other formats.
+
+### [nbformat][6]
+* [Python API for working with notebook files][7]
+    * A way to progromatically work with notebook files within python script.
+
+
+### **Tools that do not come with Jupyter Notebook**
+
+### [papermill][8]
+* Lets you parameterize (pass variables into) and execute notebooks.
+
+### [Jupyter Notebook Extensions][9]
+* Any functionality you want may exist with a jupyter notebook extention.
+* The documentation for all maintained extentions can be found [here](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/).
+___
 [1]: https://www.youtube.com/watch?v=DKiI6NfSIe8&t=175s
 [3]: https://colab.research.google.com/notebooks/intro.ipynb
 [2]: https://docs.conda.io/en/latest/miniconda.html
 [4]: https://gist.github.com/ocoyawale/54d92fd4bf92508a2a6e482b5fa480fd
+[5]: https://nbconvert.readthedocs.io/en/latest/
+[6]: https://nbformat.readthedocs.io/en/latest/
+[7]: https://nbformat.readthedocs.io/en/latest/api.html
+[8]: https://papermill.readthedocs.io/en/latest/
+[9]: https://github.com/ipython-contrib/jupyter_contrib_nbextensions
