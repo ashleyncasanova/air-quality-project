@@ -4,6 +4,10 @@ ___
 
 [**Notes**](#notes)
 
+* [What is Jupyter Notebook](#what-is-jupyter-notebook)
+
+* [Installing Jupyter Notebook](#installing-jupyter-notebook)
+
 * [How to open Jupyter in a Virtual Environment](#how-to-open-jupyter-in-a-virtual-environment)
 
 * [How to close Jupyter in a Virtual Environment](#how-to-close-jupyter-in-a-virtual-environment)
@@ -33,7 +37,47 @@ ___
     * [Jupyter Notebook Extensions](#jupyter-notebook-extensions)
 ___
 ### **Notes**
+___
 
+### [Installing Jupyter Notebook](https://jupyter.org/install.html)
+
+> Note: We can install Jupyter Notebook using **pip** or **conda**.
+
+\
+**Conda Instillation:**
+
+After installing Anaconda, we can run the notebook using the following terminal command:
+
+```terminal
+jupyter notebook
+```
+
+> Note: Anaconda is recomended as it comes with Python and Jupyter Notebook preinstalled.
+
+\
+**Pip Instillation:**
+
+```terminal
+pip install notebook
+```
+
+>Note: This option is for Python users who want to instal Jupyter using Pythons package manager, pip.
+___
+### What is Jupyter Notebook
+
+* Jupyter Notebook is a way to run code within a web browser, alongside some visualizations and markdown text to explain whats going on. 
+
+* The project evolved out of ipython, which has now been rolled into this jupyter project. 
+
+\
+Why this is useful?
+
+* A lot of scientific institutions are using these notebooks in order to clearly explain how they got their results 
+
+* Not only can these notebooks show us how they got their results but we can reproduce the results from within the notebooks themselves.
+
+* LIGO, the observatory that detected gravitational waves in late 2015, put out some of [their research in notebook form ](https://www.gw-openscience.org/GW150914data/GW150914_tutorial.html) which walks you through how you can replicate some of their proccessing using their own data.
+___
 ### [How to open Jupyter in a Virtual Environment][1]
 
 \
