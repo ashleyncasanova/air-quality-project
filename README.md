@@ -174,6 +174,9 @@ ___
 ### [A gallery of interesting Jupyter Notebooks][4]
 * A curated collection of Jupyter/IPython notebooks on GitHub.
 
+
+### [Jupyter Notebooks in Visual Studio Code][10]
+* Visual Studio Code offers many great features for Data Scientists and Python developers alike, allowing you to explore and experiment on your data using the flexibility of Jupyter Notebooks combined with the power and productivity of VS Code.
 ___
 ### **Tools**
 
@@ -205,3 +208,4 @@ ___
 [7]: https://nbformat.readthedocs.io/en/latest/api.html
 [8]: https://papermill.readthedocs.io/en/latest/
 [9]: https://github.com/ipython-contrib/jupyter_contrib_nbextensions
+[10]: https://www.youtube.com/watch?v=_C0vbLV6WdA
